@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- link to CSS file, so DOM knows where to look-->
+
+<link href="~/css/IndexStyleSheet.css" rel="stylesheet" />
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome AHBC C#</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<!-- Use the onclick attribute, to give function to the button once it is clicked-->
+<button onclick="addText()">Click Me</button>
+<!--add an input box to take user input-->
+<input type="text" id="textBox" />
+
+<!-- link to JavaScript file so DOM knows where to look-->
+<script src="~/js/IndexJavaScript.js"></script>
